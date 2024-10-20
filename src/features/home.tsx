@@ -1,15 +1,14 @@
 import { Link } from 'react-router-dom';
 import '../App.css'
 
-function Meditation() {
-  
+function Home() {
 
   return (
     <>
       <div>
-        
+       
       </div>
-      <h1>Meditation</h1>
+      <h1>Home</h1>
       <div className="card">
         <Link to="/" style={{ textDecoration: 'none' }}>
             Home
@@ -28,4 +27,4 @@ function Meditation() {
   )
 }
 
-export default Meditation
+export default Home
