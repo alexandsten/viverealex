@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+function Meditation() {
   const [count, setCount] = useState(0)
 
   return (
@@ -16,9 +16,11 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Alex Vivere</h1>
+      <h1>Meditation</h1>
       <div className="card">
-        <p>Meditation</p>
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
@@ -30,4 +32,4 @@ function App() {
   )
 }
 
-export default App
+export default Meditation
