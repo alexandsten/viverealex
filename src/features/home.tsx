@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import AlexVivereLogo from '../assets/Viverelogo2.png';
+import AlexVivereLogo from '../assets/VivereLogo2.png';
 import '../App.css'
 import { Typography } from '@mui/material';
 
