@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import AlexVivereLogo from '../assets/VivereLogo2.png';
 import '../App.css'
-import { Typography } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 
 function Home() {
 
@@ -10,9 +10,12 @@ function Home() {
       <div>
        
       </div>
-      <h1>Home</h1>
-      <div className="card">
+      <Stack flexDirection={'row'} width={'100%'} gap={3}>
         <img style={{ height: '4em', width: '4em' }} src={AlexVivereLogo}/>
+        <h1>Home</h1>
+      </Stack>
+      <div className="card">
+        
         <Link to="/" style={{ textDecoration: 'none' }}>
             Home
         </Link>
