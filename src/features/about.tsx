@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../App.css'
 
-function Meditation() {
+function About() {
   
 
   return (
@@ -9,13 +9,13 @@ function Meditation() {
       <div>
         
       </div>
-      <h1>Meditation</h1>
+      <h1>About me</h1>
       <div className="card">
         <Link to="/" style={{ textDecoration: 'none' }}>
             Home
         </Link>
-        <Link to="/meditation" style={{ textDecoration: 'none' }}>
-           Meditation
+        <Link to="/about" style={{ textDecoration: 'none' }}>
+           About me
         </Link>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
@@ -28,4 +28,4 @@ function Meditation() {
   )
 }
 
-export default Meditation
+export default About

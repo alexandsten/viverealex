@@ -16,11 +16,11 @@ function Home() {
         <Link to="/" style={{ textDecoration: 'none' }}>
             Home
         </Link>
-        <Link to="/meditation" style={{ textDecoration: 'none' }}>
-           Meditation
+        <Link to="/about" style={{ textDecoration: 'none' }}>
+           About me
         </Link>
       </Stack>
-      <Typography sx={{ fontSize: '3em', fontFamily: 'Major Mono Display'}}>Hello world</Typography>
+      <Typography sx={{ fontSize: '3em', fontFamily: 'Major Mono Display'}}>Alex Vivere - Movie analysis</Typography>
     </>
   )
 }

@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './features/home';
-import Meditation from './features/meditation';
+import About from './features/about';
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/meditation" element={<Meditation />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );
