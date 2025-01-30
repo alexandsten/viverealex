@@ -21,6 +21,15 @@ function Home() {
         </Link>
       </Stack>
       <Typography sx={{ fontSize: '3em', fontFamily: 'Major Mono Display'}}>Alex Vivere - Movie analysis</Typography>
+      <Typography sx={{ fontSize: '1.3em', fontFamily: 'Major Mono Display'}}>My mission is to find themes and symbolism in art.</Typography>
+      <Stack flexDirection={'row'} width={'100%'} gap={3}>
+        <Typography sx={{ fontSize: '1.3em', fontFamily: 'Major Mono Display'}}>
+          Youtube channel
+        </Typography>
+        <Typography sx={{ fontSize: '1.3em', fontFamily: 'Major Mono Display'}}>
+          Instagram
+        </Typography>
+      </Stack>
     </>
   )
 }
