@@ -13,10 +13,10 @@ function Home() {
       </Stack>
         
       <Stack flexDirection={'row'} width={'100%'} gap={3}>
-        <Link to="/" style={{ textDecoration: 'none' }}>
+        <Link to="/" style={{ textDecoration: 'none', fontFamily: 'Major Mono Display', color: 'black' }}>
             Home
         </Link>
-        <Link to="/about" style={{ textDecoration: 'none' }}>
+        <Link to="/about" style={{ textDecoration: 'none', fontFamily: 'Major Mono Display', color: 'black' }}>
            About me
         </Link>
       </Stack>
